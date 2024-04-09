@@ -1,0 +1,9 @@
+{
+	"prerelease": false,
+	"repo": "xemu-project/xemu",
+	"pattern": {
+		"inner": null,
+		"outer": "^(?!.*dbg-).*\\\\.AppImage$"
+	},
+	"depend": []
+}
