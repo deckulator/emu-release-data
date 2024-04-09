@@ -1,0 +1,9 @@
+{
+	"prerelease": false,
+	"repo": "mgba-emu/mgba",
+	"pattern": {
+		"inner": null,
+		"outer": ".*\\.appimage$"
+	},
+	"depend": []
+}
