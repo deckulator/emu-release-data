@@ -1,0 +1,9 @@
+{
+	"prerelease": true,
+	"repo": "PCSX2/pcsx2",
+	"pattern": {
+		"inner": null,
+		"outer": ".*\\\\.AppImage$"
+	},
+	"depend": []
+}
