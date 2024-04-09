@@ -1,0 +1,14 @@
+{
+	"prerelease": false,
+	"repo": "melonDS-emu/melonDS",
+	"pattern": {
+		"inner": "melonDS",
+		"outer": "melonDS_.*_linux_x64\\\\.zip$"
+	},
+	"depend": [
+		"sdl2",
+		"qt5-base",
+		"qt5-multimedia",
+		"libslirp"
+	]
+}
