@@ -1,0 +1,9 @@
+{
+	"prerelease": false,
+	"repo": "RPCS3/rpcs3-binaries-linux",
+	"pattern": {
+		"inner": null,
+		"outer": ".*\\\\.AppImage$"
+	},
+	"depend": []
+}
