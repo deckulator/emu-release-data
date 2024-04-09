@@ -1,0 +1,9 @@
+{
+	"prerelease": false,
+	"repo": "flyinghead/flycast",
+	"pattern": {
+		"inner": null,
+		"outer": ".*\\\\.AppImage$"
+	},
+	"depend": []
+}
