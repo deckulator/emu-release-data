@@ -1,0 +1,9 @@
+{
+	"prerelease": false,
+	"repo": "stenzek/duckstation",
+	"pattern": {
+		"inner": null,
+		"outer": ".*\\\\.AppImage$"
+	},
+	"depend": []
+}
