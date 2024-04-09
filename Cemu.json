@@ -1,0 +1,13 @@
+{
+	"prerelease": true,
+	"repo": "cemu-project/Cemu",
+	"pattern": {
+		"inner": null,
+		"outer": ".*\\\\.AppImage$"
+	},
+	"depend": [
+		"glu",
+		"gtk3",
+		"json-glib"
+	]
+}
