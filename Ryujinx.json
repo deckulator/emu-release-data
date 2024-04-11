@@ -2,11 +2,10 @@
 	"prerelease": false,
 	"repo": "Ryujinx/release-channel-master",
 	"pattern": {
-		"inner": "publish/Ryujinx",
-		"outer": "^ryujinx-[\\\\.\\\\d]+-linux_x64\\\\.tar.gz$"
+		"inner": "publish/Ryujinx.Headless.SDL2",
+		"outer": "^sdl2-ryujinx-headless-[\\\\.\\\\d]+-linux_x64\\\\.tar.gz$"
 	},
 	"depend": [
-		"sdl2",
-		"skia-sharp=1.68.0-1"
+		"sdl2"
 	]
 }
