@@ -2,7 +2,7 @@
 	"prerelease": false,
 	"repo": "Ryujinx/release-channel-master",
 	"pattern": {
-		"inner": "Ryujinx",
+		"inner": "publish/Ryujinx",
 		"outer": "^ryujinx-[\\\\.\\\\d]+-linux_x64\\\\.tar.gz$"
 	},
 	"depend": []
