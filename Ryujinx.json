@@ -7,10 +7,6 @@
 	},
 	"depend": [
 		"sdl2",
-		"skia-sharp",
-		"harfbuzz",
-		"harfbuzz-cairo",
-		"harfbuzz-icu",
-		"haskell-gi-harfbuzz"
+		"skia-sharp:1.68.0"
 	]
 }
