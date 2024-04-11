@@ -5,5 +5,9 @@
 		"inner": "publish/Ryujinx",
 		"outer": "^ryujinx-[\\\\.\\\\d]+-linux_x64\\\\.tar.gz$"
 	},
-	"depend": []
+	"depend": [
+		"sdl2",
+		"skiasharp",
+		"harfbuzzsharp"
+	]
 }
