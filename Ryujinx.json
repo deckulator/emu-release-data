@@ -7,6 +7,6 @@
 	},
 	"depend": [
 		"sdl2",
-		"skia-sharp:1.68.0"
+		"skia-sharp=1.68.0"
 	]
 }
