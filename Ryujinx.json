@@ -8,6 +8,9 @@
 	"depend": [
 		"sdl2",
 		"skia-sharp",
-		"harfbuzz"
+		"harfbuzz",
+		"harfbuzz-cairo",
+		"harfbuzz-icu",
+		"harfbuzz-utils"
 	]
 }
