@@ -11,7 +11,6 @@
 		"harfbuzz",
 		"harfbuzz-cairo",
 		"harfbuzz-icu",
-		"harfbuzz-utils",
 		"haskell-gi-harfbuzz"
 	]
 }
