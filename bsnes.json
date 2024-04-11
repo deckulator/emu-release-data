@@ -6,6 +6,7 @@
 		"outer": "bsnes-ubuntu.zip"
 	},
 	"depend": [
-		"libao"
+		"libao",
+		"openal"
 	]
 }
