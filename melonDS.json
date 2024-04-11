@@ -3,7 +3,7 @@
 	"repo": "melonDS-emu/melonDS",
 	"pattern": {
 		"inner": "melonDS",
-		"outer": "^melonDS_[\\\\.\\\\d]+_linux_x64\\\\.zip$"
+		"outer": "^melonDS_[.d]+_linux_x64\\\\.zip$"
 	},
 	"depend": [
 		"sdl2",
