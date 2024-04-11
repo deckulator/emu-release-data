@@ -3,7 +3,7 @@
 	"repo": "cemu-project/Cemu",
 	"pattern": {
 		"inner": null,
-		"outer": ".*\\\\.AppImage$"
+		"outer": "^Cemu-[\\\\.\\\\d]+-x86_64\\\\.AppImage$"
 	},
 	"depend": [
 		"glu",
