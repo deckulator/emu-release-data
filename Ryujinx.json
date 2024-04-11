@@ -7,6 +7,7 @@
 	},
 	"depend": [
 		"sdl2",
-		"skia-sharp"
+		"skia-sharp",
+		"harfbuzz"
 	]
 }
