@@ -8,6 +8,6 @@
 	"depend": [
 		"sdl2",
 		"pango",
-		"skia-sharp=2.88.7-1"
+		"skia-sharp=1.68.0-1"
 	]
 }
