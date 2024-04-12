@@ -4,8 +4,8 @@
 	"file": {
 		"pattern": "^mGBA-[\\\\.\\\\d]+-appimage-x64\\\\.appimage$",
 		"extract": {
-			"executable": null,
-			"libraries": []
+			"main": null,
+			"other": []
 		}
 	},
 	"dependencies": []
