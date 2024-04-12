@@ -3,7 +3,10 @@
 	"repo": "mgba-emu/mgba",
 	"file": {
 		"pattern": "^mGBA-[\\\\.\\\\d]+-appimage-x64\\\\.appimage$",
-		"extract": null
+		"extract": {
+			"executable": null,
+			"libraries": []
+		}
 	},
 	"depend": []
 }
