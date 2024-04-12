@@ -1,9 +1,9 @@
 {
 	"prerelease": false,
 	"repo": "mgba-emu/mgba",
-	"pattern": {
-		"inner": null,
-		"outer": ".*\\.appimage$"
+	"file": {
+		"pattern": "^mGBA-[\\\\.\\\\d]+-appimage-x64\\\\.appimage$",
+		"extract": null
 	},
 	"depend": []
 }
