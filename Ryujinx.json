@@ -1,9 +1,17 @@
 {
 	"prerelease": false,
 	"repo": "Ryujinx/release-channel-master",
-	"pattern": {
-		"inner": "publish/Ryujinx.Headless.SDL2",
-		"outer": "^sdl2-ryujinx-headless-[\\\\.\\\\d]+-linux_x64\\\\.tar.gz$"
+	"file": {
+		"match": "^ryujinx-[\\\\.\\\\d]+-linux_x64\\\\.tar.gz$",
+		"extract": {
+			"bin": [
+				"publish/Ryujinx"
+			],
+			"lib": [
+				"publish/libSkiaSharp.so",
+				"publish/libHarfBuzzSharp.so"
+			]
+		}
 	},
 	"depend": [
 		"sdl2"
