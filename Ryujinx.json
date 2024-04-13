@@ -4,10 +4,10 @@
 	"file": {
 		"pattern": "^ryujinx-[\\\\.\\\\d]+-linux_x64\\\\.tar.gz$",
 		"extract": {
-			"executable": "publish/Ryujinx",
-			"libraries": [
-				"publish/libSkiaSharp.so",
-				"publish/libHarfBuzzSharp.so"
+			"main": "publish/Ryujinx",
+			"other": [
+				{ "from": "publish/libSkiaSharp.so", "to": "lib" },
+				{ "from": "publish/libHarfBuzzSharp.so", "to": "lib" }
 			]
 		}
 	},
