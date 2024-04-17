@@ -1,9 +1,12 @@
 {
 	"prerelease": false,
 	"repo": "Rosalie241/RMG",
-	"pattern": {
-		"inner": null,
-		"outer": ".*\\\\.AppImage$"
+	"file": {
+		"pattern": "^RMG-Portable-Linux64-v[\\\\.\\\\d]+\\\\.AppImage$",
+		"extract": {
+			"main": null,
+			"other": []
+		}
 	},
-	"depend": []
+	"dependencies": []
 }
