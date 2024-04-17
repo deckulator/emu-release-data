@@ -1,11 +1,14 @@
 {
 	"prerelease": true,
 	"repo": "bsnes-emu/bsnes",
-	"pattern": {
-		"inner": "bsnes-nightly/bsnes",
-		"outer": "bsnes-ubuntu.zip"
+	"file": {
+		"pattern": "^bsnes-ubuntu.zip$",
+		"extract": {
+			"main": "bsnes-nightly/bsnes",
+			"other": []
+		}
 	},
-	"depend": [
+	"dependencies": [
 		"libao",
 		"openal"
 	]
