@@ -1,9 +1,12 @@
 {
 	"prerelease": false,
 	"repo": "RPCS3/rpcs3-binaries-linux",
-	"pattern": {
-		"inner": null,
-		"outer": ".*\\\\.AppImage$"
+	"file": {
+		"pattern": "^rpcs3-v.*-.*-.*_linux64.AppImage$",
+		"extract": {
+			"main": null,
+			"other": []
+		}
 	},
-	"depend": []
+	"dependencies": []
 }
