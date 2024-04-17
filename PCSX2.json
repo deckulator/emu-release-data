@@ -1,9 +1,12 @@
 {
 	"prerelease": true,
 	"repo": "PCSX2/pcsx2",
-	"pattern": {
-		"inner": null,
-		"outer": ".*\\\\.AppImage$"
+	"file": {
+		"pattern": "^pcsx2-v[\\\\.\\\\d]+-linux-AppImage-32bit.AppImage$",
+		"extract": {
+			"main": null,
+			"other": []
+		}
 	},
-	"depend": []
+	"dependencies": []
 }
