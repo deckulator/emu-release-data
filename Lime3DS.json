@@ -1,9 +1,12 @@
 {
 	"prerelease": false,
 	"repo": "Lime3DS/Lime3DS",
-	"pattern": {
-		"inner": "lime-qt.AppImage",
-		"outer": "lime3ds-.*\\\\-linux-appimage.tar.gz$"
+	"file": {
+		"pattern": "^lime3ds-[\\\\.\\\\d]+-linux-appimage.tar.gz$",
+		"extract": {
+			"main": "lime-qt.AppImage",
+			"other": []
+		}
 	},
-	"depend": []
+	"dependencies": []
 }
