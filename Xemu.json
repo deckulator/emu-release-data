@@ -2,7 +2,7 @@
 	"prerelease": false,
 	"repo": "xemu-project/xemu",
 	"file": {
-		"pattern": "^xemu-v[\\\\.\\\\d]-x86_64.AppImage$",
+		"pattern": "^xemu-v[\\\\.\\\\d]+-x86_64.AppImage$",
 		"extract": {
 			"main": null,
 			"other": []
