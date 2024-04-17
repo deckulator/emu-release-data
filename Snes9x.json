@@ -1,11 +1,14 @@
 {
 	"prerelease": false,
 	"repo": "snes9xgit/snes9x",
-	"pattern": {
-		"inner": null,
-		"outer": ".*\\\\.AppImage$"
+	"file": {
+		"pattern": "^Snes9x-[\\\\.\\\\d]+-x86_64.AppImage$",
+		"extract": {
+			"main": null,
+			"other": []
+		}
 	},
-	"depend": [
+	"dependencies": [
 		"glibmm"
 	]
 }
