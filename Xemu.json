@@ -1,9 +1,12 @@
 {
 	"prerelease": false,
 	"repo": "xemu-project/xemu",
-	"pattern": {
-		"inner": null,
-		"outer": "^(?!.*dbg-).*\\\\.AppImage$"
+	"file": {
+		"pattern": "^xemu-v[\\\\.\\\\d]-x86_64.AppImage$",
+		"extract": {
+			"main": null,
+			"other": []
+		}
 	},
-	"depend": []
+	"dependencies": []
 }
