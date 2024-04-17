@@ -1,9 +1,12 @@
 {
 	"prerelease": false,
 	"repo": "Vita3K/Vita3K",
-	"pattern": {
-		"inner": null,
-		"outer": ".*\\\\.AppImage$"
+	"file": {
+		"pattern": "^Vita3K-x86_64.AppImage$",
+		"extract": {
+			"main": null,
+			"other": []
+		}
 	},
-	"depend": []
+	"dependencies": []
 }
